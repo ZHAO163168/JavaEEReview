@@ -1,0 +1,1 @@
+导入工程的是目录下的mysql-connector-java-5.1.7-bin.jar

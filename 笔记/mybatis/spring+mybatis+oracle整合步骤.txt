@@ -1,0 +1,68 @@
+1）创建一个spring-mybaits-oracle这么一个javaweb或java工程
+
+2）导入spring，mybatis，c3p0，oracle和mybatis提供的与spring整合的插件包
+   mysql的jar：
+         mysql-connector-java-5.1.7-bin.jar
+   oracle的jar：
+         ojdbc5.jar
+   c3p0的jar：
+	 c3p0-0.9.1.2.jar
+   mybatis的jar：
+	 asm-3.3.1.jar
+         
+cglib-2.2.2.jar
+         
+commons-logging-1.1.1.jar
+         
+mybatis-3.1.1.jar
+   mybatis与spring整合的jar
+        【mybatis-spring-1.1.1.jar】
+   spring的ioc模块的jar：
+         org.springframework.asm-3.0.5.RELEASE.jar
+         org.springframework.beans-3.0.5.RELEASE.jar
+         org.springframework.context-3.0.5.RELEASE.jar
+         org.springframework.core-3.0.5.RELEASE.jar
+         org.springframework.expression-3.0.5.RELEASE.jar
+         commons-logging.jar
+   spring的aop模块的jar：
+         aopalliance.jar
+         aspectjweaver.jar
+         cglib-2.2.2.jar
+         org.springframework.aop-3.0.5.RELEASE.jar
+   spring的transaction模块的jar：
+         org.springframework.jdbc-3.0.5.RELEASE.jar
+         org.springframework.orm-3.0.5.RELEASE.jar
+         org.springframework.transaction-3.0.5.RELEASE.jar
+        
+3）创建emps.sql表，使用oracle或mysql语法
+   
+
+4）创建Emp.java类
+
+
+5）创建EmpMapper.xml映射文件
+
+
+6）创建mybatis.xml配置文件
+
+
+7）创建EmpDao.java类
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
